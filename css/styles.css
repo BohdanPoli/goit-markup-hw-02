@@ -6,7 +6,8 @@ textcolor - ##757575
 primewhite - #FFFFFF 
 hoverbutton -  #188CE8 
 footertext - rgba(255, 255, 255, 0.6) 
-buttonbackground -  #F5F4FA  */
+buttonbackground -  #F5F4FA
+mainbackground - #2F303A; */
 
 :root {
   --accent-color: #2196f3;
@@ -16,6 +17,7 @@ buttonbackground -  #F5F4FA  */
   --hoverbutton: #188ce8;
   --footertext: rgba(255, 255, 255, 0.6);
   --buttonbackground: #f5f4fa;
+  --mainbackground: #2f303a;
 }
 
 /* Presettings for tegs */
@@ -94,6 +96,10 @@ body {
 
 /* Hero section */
 
+.hero-section {
+  background-color: var(--mainbackground);
+}
+
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -163,6 +169,10 @@ body {
 }
 
 /* footer  */
+
+footer {
+  background-color: var(--mainbackground);
+}
 
 address {
   font-style: normal;
