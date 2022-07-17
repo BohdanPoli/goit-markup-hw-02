@@ -47,6 +47,15 @@ body {
   color: var(--title-color);
 }
 
+.nav-list-item .current {
+  color: var(--accent-color);
+}
+
+.button-list .currentbutton {
+  color: var(--primewhite);
+  background-color: var(--accent-color);
+}
+
 /* header logo */
 
 .logo {
@@ -55,7 +64,9 @@ body {
   line-height: 1.19;
   color: #000000;
 }
-.logo .web {
+
+.logo .web,
+.footer-logo .web {
   color: var(--accent-color);
 }
 
@@ -189,6 +200,13 @@ address {
   font-size: 14px;
   line-height: 1.71;
   color: var(--footertext);
+}
+
+.footer-logo {
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--primewhite);
 }
 
 /* PORTFOLIO.HTML  */
